@@ -65,7 +65,7 @@ void display_cmd(char cmd) {
   }
   else if (cmd == '8') {
     clear_cmd();
-    display(0, 1, "Command:Timer OFF");
+    display(0, 1, "Command:TimerOFF");
   }
   else {
     return;

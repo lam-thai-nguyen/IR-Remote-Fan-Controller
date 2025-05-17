@@ -71,8 +71,8 @@ void start_motor(int speed) {
     return;
   }
 
-  digitalWrite(IN3, 1);
-  digitalWrite(IN4, 0);
+  digitalWrite(IN3, 0);
+  digitalWrite(IN4, 1);
   analogWrite(ENB, speed);
 }
 
@@ -96,8 +96,4 @@ void reverse_motor(int speed) {
   digitalWrite(IN3, !digitalRead(IN3));
   digitalWrite(IN4, !digitalRead(IN4));
   analogWrite(ENB, speed);
-}
-
-char send_cmd_for_display(char cmd) {
-
 }
