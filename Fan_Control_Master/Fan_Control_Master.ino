@@ -1,4 +1,3 @@
-#define DECODE_HASH
 #include <IRremote.hpp>
 
 #define IR_RECEIVER_PIN 7
